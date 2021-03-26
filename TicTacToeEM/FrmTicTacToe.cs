@@ -25,6 +25,10 @@ namespace TicTacToeEM
         {
 
         }
+        private void MetodoSeparado()
+        {
+           // Functions.CheckWinner(XPlayerTurn);
+        }
 
         public void button1_Click(object sender, EventArgs e)
         {
