@@ -9,7 +9,7 @@ namespace TicTacToeEM
 {
     public static class Functions 
     {
-        public static void CleanFields(ref Button button1, Button button2, Button button3, Button button4, Button button5, Button button6, Button button7, Button button8, Button button9)
+        public static void CleanFields(ref Button button1, Button button2, Button button3, Button button4, Button button5, Button button6, Button button7, Button button8, Button button9,string player)
         {
             button1.Text = "";
             button2.Text = "";
@@ -20,6 +20,7 @@ namespace TicTacToeEM
             button7.Text = "";
             button8.Text = "";
             button9.Text = "";
+            player = "";
         }
 
         public static bool CheckWinner(ref string player, ref Button button1, Button button2, Button button3, Button button4, Button button5, Button button6, Button button7, Button button8, Button button9)
